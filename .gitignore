@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.pnp.*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Build artifacts
+dist/
+build/
+
+# Design source materials (not part of production site)
+website-general/
+Sistema de Diseño Vena Digital/
+Website General-handoff.zip
+Academia IA para Emprendedores.pdf
+foto_alura.jpg
+
+# Claude Code skills (8.6 MB, can be re-installed)
+.claude/skills/
+
+# Local Claude Code dev config (preview server)
+.claude/launch.json

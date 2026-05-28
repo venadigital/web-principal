@@ -1,0 +1,19 @@
+{
+  "name": "vena-digital",
+  "version": "1.0.0",
+  "description": "Vena Digital — IA real para negocios reales",
+  "main": "server.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "resend": "^4.0.0"
+  }
+}
